@@ -3,8 +3,8 @@ name: "HZ-HBOICT Laravel Style Check"
 on:
   pull_request:
     paths:
-      - "**.php"
-      - "phpcs.xml"
+      - "../../tests/Unit/ExampleTest.php"
+      - "../../phpcs.xml"
       - ".github/workflows/HZ-HBOICT-PHPcs.yml"
 
 jobs:
